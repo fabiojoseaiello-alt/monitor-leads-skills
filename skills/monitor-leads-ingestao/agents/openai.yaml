@@ -1,0 +1,5 @@
+interface:
+  display_name: "Monitor de Leads — Ingestão"
+  short_description: "Importa, normaliza e deduplica a base"
+  default_prompt: "Use $monitor-leads-ingestao para importar e normalizar a base de leads do cliente."
+

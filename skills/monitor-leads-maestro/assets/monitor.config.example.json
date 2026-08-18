@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "client": {"name": "Nome do cliente", "slug": "cliente-monitor", "timezone": "America/Sao_Paulo"},
+  "brand": {"logo": "logo.png", "brand_dark": "#210707", "brand_main": "#690d16", "brand_bright": "#e23b45", "accent": "#f16a37"},
+  "source": {"type": "google_sheets", "url": "", "tabs": [], "qualification_column": "", "establishment_column": "", "cnpj_column": ""},
+  "conversation": {"provider": "chatwoot", "base_url_env": "CHATWOOT_BASE_URL", "token_env": "CHATWOOT_API_TOKEN", "account_id_env": "CHATWOOT_ACCOUNT_ID"},
+  "crm": {"provider": "kommo", "base_url_env": "KOMMO_BASE_URL", "token_env": "KOMMO_API_TOKEN", "pipeline_id": ""},
+  "enrichment": {"cnpj_providers": ["cnpj.ws", "minha_receita", "brasilapi"], "google_maps": true, "site": true, "instagram": true, "linkedin": true},
+  "icp": {"segments": [], "volume_bands": [], "priority_rules": []},
+  "privacy": {"publish_personal_contact": false, "conversation_delivery": "encrypted_authenticated_vault"},
+  "publish": {"provider": "vercel", "project": "cliente-monitor", "domain": "cliente-monitor.vercel.app"}
+}
+

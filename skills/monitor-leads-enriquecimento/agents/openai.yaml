@@ -1,0 +1,5 @@
+interface:
+  display_name: "Monitor de Leads — Enriquecimento"
+  short_description: "Enriquece CNPJ, Maps e presença digital"
+  default_prompt: "Use $monitor-leads-enriquecimento para enriquecer publicamente os estabelecimentos da base."
+

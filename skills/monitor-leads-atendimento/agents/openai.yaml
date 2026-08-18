@@ -1,0 +1,5 @@
+interface:
+  display_name: "Monitor de Leads — Atendimento"
+  short_description: "Cruza IA, CRM humano e handover"
+  default_prompt: "Use $monitor-leads-atendimento para auditar as conversas da IA e o atendimento humano após o handover."
+

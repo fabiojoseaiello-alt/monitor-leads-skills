@@ -1,0 +1,5 @@
+interface:
+  display_name: "Monitor de Leads — QA e Publicação"
+  short_description: "Valida privacidade, dados e publicação"
+  default_prompt: "Use $monitor-leads-qa-publicacao para validar e publicar o monitor com segurança."
+

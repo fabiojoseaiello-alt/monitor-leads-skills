@@ -1,0 +1,5 @@
+interface:
+  display_name: "Monitor de Leads — Maestro"
+  short_description: "Orquestra o monitor completo por cliente"
+  default_prompt: "Use $monitor-leads-maestro para criar um monitor de inteligência e atendimento para um novo cliente."
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Monitor de Leads — Dashboard"
+  short_description: "Constrói o dashboard executivo filtrável"
+  default_prompt: "Use $monitor-leads-dashboard para criar o painel executivo com evidências e filtros sincronizados."
+
